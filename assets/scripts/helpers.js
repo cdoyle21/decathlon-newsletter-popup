@@ -3,6 +3,7 @@ function isValidEmail(val) {
   if (val.value.match(mailformat)) {
     document.querySelector('.Rectangle').style.border = 'solid 2px green';
     document.querySelector('.Please-type-an-e-mai').style.display = 'none';
+    document.querySelector('.Background').style.color = 'black';
     document.form1.email.focus();
     return true;
   } else {

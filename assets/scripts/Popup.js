@@ -45,7 +45,6 @@ class Popup {
 
         document.body.insertAdjacentElement('afterbegin', this.modalElement);
         document.body.insertAdjacentElement('afterbegin', this.backdropElement);
-        this.backdropElement.addEventListener('click', this.hide);
       }
     } else {
       alert(this.fallbackText);

@@ -188,9 +188,9 @@ input {
   }
 
   .bg {
-    width: 290px;
+    width: 295px;
     height: 490px;
-    padding: 16px 16px 32px 17px;
+    padding: 16px 16px 32px 16px;
   }
 
   .illustration {
@@ -200,25 +200,29 @@ input {
   }
 
   .Subscribe-to-our-New {
-    width: 257px;
+    width: 263px;
     margin: 16px 0 0;
     font-size: 20px;
   }
 
   .Sign-up-to-our-newsl {
-    width: 257px;
+    width: 268px;
     margin: 0px 0 24px;
     font-size: 14px;
     line-height: 1.5;
   }
 
+  .Please-type-an-e-mai {
+    margin: 0px 0px 24px 4px;
+  }
+
   .Lorem-ipsum-dolor-si {
-    margin: 8px 4px 0;
+    margin: 12px 0px 0;
   }
 
   .Rectangle {
     width: 250px;
-    margin: 24px 4px 0px 3px;
+    margin: 24px 4px 8px 3px;
   }
 
   .Background {
