@@ -1,0 +1,29 @@
+{
+    "popup": [
+        {
+            "content": [
+                {
+                    "text": "Subscribe to our Newsletter"
+                },
+                {
+                    "text": "Sign up to our newsletter for early access to Black Friday deals and much more!"
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+                },
+                {
+                    "text": "Please type a valid e-mail address"
+                }
+            ],
+            "links": "",
+            "images": [
+                {
+                    "image": "<img class=\"iconsclose\" src=\"assets/images/icons-close.svg\" alt=\"Close\" />"
+                },
+                {
+                    "image": "<img class=\"illustration\" src=\"assets/images/illustration-desktop.svg\" alt=\"Subscribe to our Newsletter\" />"
+                }
+            ]
+        }
+    ]
+}

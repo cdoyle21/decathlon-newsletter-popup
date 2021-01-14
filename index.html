@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Newsletter Popup</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/popup.css" />
+  <script src="assets/scripts/Popup.js" defer></script>
+  <script src="assets/scripts/helpers.js" defer></script>
+  </head>
+  <body>
+
+    <template id="loading-modal-content">
+      <div class="bg">
+        <button id="close-button" onclick="popup.hide()"></button>
+        <div class="Main-image"></div>
+        <div class="Subscribe-to-our-New"></div>
+        <div class="Sign-up-to-our-newsl"></div>
+        <form name="form1">
+          <input type="email" class="Rectangle" name="email" placeholder="E-mail" onblur="isValidEmail(document.form1.email)" />
+          <div class="Please-type-an-e-mai"></div>
+          <input type="submit" class="Background" value="SUBSCRIBE" />
+        </form>
+        <div class="Lorem-ipsum-dolor-si"></div>
+      </div>
+    </template>
+    <template id="modal-template">
+      <div class="backdrop" onclick="popup.hide()"></div>
+      <div class="modal"></div>
+    </template>
+
+  </body>
+</html>

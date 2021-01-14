@@ -1,0 +1,24 @@
+{
+  "name": "newsletter-popup",
+  "version": "1.0.0",
+  "description": "newsletter-popup",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start-server": "node ./assets/data/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdoyle21/decathlon-newsletter-popup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdoyle21/decathlon-newsletter-popup/issues"
+  },
+  "homepage": "https://github.com/cdoyle21/decathlon-newsletter-popup#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

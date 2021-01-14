@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  color: white;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  float: right;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: transparent;
+  border: none;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: not-allowed;
+}
+
+input {
+  border: 2px solid hsl(30, 76%, 10%);
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 125px;
+  padding: 0.5rem;
+  border-color: gray;
+  transition: border-color 0.5s ease-out;
+  outline: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}
+
+.modal {
+  position: fixed;
+  top: 16vh;
+  left: calc(50% - 22rem);
+  background: white;
+  z-index: 20;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  width: 710px;
+  height: 529px;
+  padding: 20px 20px 32px 75px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.iconsclose {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  float: right;
+}
+
+.illustration {
+  width: 247px;
+  height: 147px;
+  margin: 24px 167px 16px 158px;
+  object-fit: contain;
+}
+
+.Subscribe-to-our-New {
+  width: 470px;
+  height: 42px;
+  margin: 16px 110px 10px 45px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0082c3;
+}
+
+.Sign-up-to-our-newsl {
+  width: 580px;
+  height: 19px;
+  margin: 10px 32px 24px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a171b;
+}
+
+.Lorem-ipsum-dolor-si {
+  width: 270px;
+  height: 11px;
+  margin: 10px 194px 0 148px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #787878;
+}
+
+.Rectangle {
+  width: 420px;
+  height: 40px;
+  margin: 24px 111px 10px 60px;
+  padding: 12px 16px;
+  border-radius: 3px;
+  border: solid 1px #cbcbcb;
+  background-color: #fafafa;
+}
+
+.Background {
+  width: 420px;
+  height: 40px;
+  margin: 0px 111px 0px 60px;
+  padding: 10px 24px 11px;
+  border-radius: 4px;
+  background-color: #ffea28;
+  border-width: 0px;
+  color: #7c8b91;
+}
+.Please-type-an-e-mai {
+  width: 249px;
+  height: 11px;
+  margin: 8px 282px 24px 60px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #e32c26;
+  display: none;
+}
+
+/* For Mobile Devices*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .modal {
+    left: 12%;
+  }
+
+  .bg {
+    width: 290px;
+    height: 490px;
+    padding: 16px 16px 32px 17px;
+  }
+
+  .illustration {
+    width: 168px;
+    height: 100px;
+    margin: 14px 21px 16px 44px;
+  }
+
+  .Subscribe-to-our-New {
+    width: 257px;
+    margin: 16px 0 0;
+    font-size: 20px;
+  }
+
+  .Sign-up-to-our-newsl {
+    width: 257px;
+    margin: 0px 0 24px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .Lorem-ipsum-dolor-si {
+    margin: 8px 4px 0;
+  }
+
+  .Rectangle {
+    width: 250px;
+    margin: 24px 4px 0px 3px;
+  }
+
+  .Background {
+    width: 249px;
+    margin: 0px 5px 0px 3px;
+  }
+}
